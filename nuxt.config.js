@@ -1,8 +1,6 @@
 import theme from '@nuxt/content-theme-docs'
 
 module.exports = theme({
-  target: 'server',
-
   docs: {
     primaryColor: '#E24F55'
   },

@@ -2,13 +2,13 @@
   "name": "adore-documentation",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start --experimental-modules",
+    "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "nuxt build && serverless deploy"
+    "deploy": "nuxt build && serverless deploy",
+    "start-offline": "nuxt build && sls offline start"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "0.10.1",
@@ -17,11 +17,12 @@
     "serverless-apigw-binary": "^0.4.4",
     "serverless-domain-manager": "^5.1.0",
     "serverless-dotenv-plugin": "^3.1.0",
+    "serverless-http": "^2.7.0",
     "serverless-nuxt": "^1.1.1",
     "serverless-s3-sync": "^1.15.0"
   },
   "devDependencies": {
     "serverless": "^2.38.0",
-    "serverless-nuxt-plugin": "^1.2.0"
+    "serverless-offline": "^7.0.0"
   }
 }
