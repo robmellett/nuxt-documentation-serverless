@@ -1,9 +1,9 @@
 {
-  "title": "Adore Beauty Documentation",
+  "title": "Documentation",
   "url": "",
   "logo": {
-    "light": "/adore-logo-light.svg",
-    "dark": "/adore-logo-dark.svg"
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
   },
   "github": "nuxt/content",
   "twitter": "@nuxt_js",
