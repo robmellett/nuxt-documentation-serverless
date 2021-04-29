@@ -1,0 +1,15 @@
+{
+  "title": "Adore Beauty Documentation",
+  "url": "",
+  "logo": {
+    "light": "/adore-logo-light.svg",
+    "dark": "/adore-logo-dark.svg"
+  },
+  "github": "nuxt/content",
+  "twitter": "@nuxt_js",
+  "algolia": {
+    "apiKey": "<API_KEY>",
+    "indexName": "<INDEX_NAME>",
+    "langAttribute": "language"
+  }
+}
