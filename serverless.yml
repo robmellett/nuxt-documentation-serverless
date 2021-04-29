@@ -1,7 +1,6 @@
 service: serverless-documentation
 
 plugins:
-  - serverless-nuxt-plugin
   - serverless-apigw-binary
   - serverless-domain-manager
 

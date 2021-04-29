@@ -1,4 +1,7 @@
-const { createNuxtApp } = require("serverless-nuxt");
-const config = require("./nuxt.config.js");
+const sls = require('serverless-http')
+const binaryMimeTypes = require('./binaryMimeTypes')
+const nuxt = require('./nuxtBuild')
 
-module.exports.render = createNuxtApp(config);
+module.exports.handler = sls(nuxt, {
+    binary: binaryMimeTypes
+})
