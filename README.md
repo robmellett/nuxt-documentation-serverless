@@ -1,4 +1,4 @@
-# adore-documentation
+## Documentation
 
 ## Setup
 
